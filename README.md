@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/MyselfRebel/RebelUtil.svg)](https://jitpack.io/#MyselfRebel/RebelUtil)
 # RebelUtil
 You can easily execute permission dependent functions using this library
 
@@ -41,4 +42,4 @@ private void doTask() {
 <string name="permission_request">Please provide {%permissions%} permission(s) to continue</string>
 ```
 ## Permission String
-![alt text](https://github.com/[MyselRebel]/[RebelUtil]/blob/[master]/permissionString.jpg?raw=true)
+![alt text](https://github.com/[MyselRebel]/[RebelUtil]/[master]/permissionString.jpg?raw=true)
