@@ -27,17 +27,19 @@ If you set "enablePermissionString" to be true, then make sure to add "{%permiss
 String[] permissions = {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.READ_CONTACTS, Manifest.permission.CAMERA};
 
 boolean enablePermissionString = true;
-
+```
+## Execute your function
+```
 SafeActionPerformer.performAction(context, permissions, enablePermissionString,
                 getString(R.string.permission_request), this::doTask);
 ```
-
+## doTask() function (Permission dependent)
 ```
 private void doTask() {
   // do your task for which the permissions were required..
 }
 ```
-
+## strings.xml
 ```
 <string name="permission_request">Please provide {%permissions%} permission(s) to continue</string>
 ```
