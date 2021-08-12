@@ -42,4 +42,4 @@ private void doTask() {
 <string name="permission_request">Please provide {%permissions%} permission(s) to continue</string>
 ```
 ## Permission String
-![alt text](https://github.com/[MyselRebel]/[RebelUtil]/[master]/permissionString.jpg?raw=true)
+![Permission String](https://github.com/MyselfRebel/RebelUtil/blob/master/permissionString.jpg)
