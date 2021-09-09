@@ -1,4 +1,4 @@
-package com.rebel.rebelutillib;
+package com.rebel.adapters;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -20,6 +20,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.rebel.rebelutillib", appContext.getPackageName());
+        assertEquals("com.rebel.adapters.test", appContext.getPackageName());
     }
 }

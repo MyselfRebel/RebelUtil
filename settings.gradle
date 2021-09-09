@@ -1,3 +1,4 @@
+include ':Adapters'
 include ':Permissions'
 include ':app'
 rootProject.name = "RebelUtilLib"

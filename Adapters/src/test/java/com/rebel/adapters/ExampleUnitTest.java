@@ -1,4 +1,4 @@
-package com.rebel.rebelutillib;
+package com.rebel.adapters;
 
 import org.junit.Test;
 
